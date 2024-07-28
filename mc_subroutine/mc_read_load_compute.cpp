@@ -87,7 +87,7 @@ void mc_computation::saveArrayToCSV(const std::shared_ptr<double[]>& array, cons
     }
     outFile << std::setprecision(std::numeric_limits<double>::digits10 + 1) << std::fixed;
 
-    outFile<<"U,"<<"L,"<<"y0,"<<"z0,"<<"y1"<<"\n";
+    outFile<<"U,"<<"L,"<<"x0A,"<<"x0B,"<<"x1A,"<<"x1B"<<"\n";
     for (size_t i = 0; i < arraySize; ++i) {
         outFile << array[i];
         if ((i + 1) % numbersPerRow == 0) {

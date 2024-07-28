@@ -1,5 +1,5 @@
 #include "./mc_subroutine/mc_read_load_compute.hpp"
-#include "./potentialFunction/potentialFunctionPrototype.hpp"
+
 
 int main(int argc, char *argv[]) {
     if (argc != 2) {
